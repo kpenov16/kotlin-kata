@@ -5,8 +5,10 @@ import kotlin.test.assertEquals
 class mainTest {
 
     @Test
-    fun nothing(){
-        assertEquals("boo","boo");
+    fun givenEmptyString_returnZero(){
+        assertEquals(0, add(""));
     }
-
+    fun add(str:String): Int{
+        return 0;
+    }
 }
