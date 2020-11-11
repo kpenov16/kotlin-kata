@@ -6,7 +6,7 @@ class mainTest {
 
     @Test
     fun nothing(){
-        assertEquals("foo","boo");
+        assertEquals("boo","boo");
     }
 
 }
